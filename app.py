@@ -60,8 +60,8 @@ def ranname():
   return str(uuid.uuid1())+".png"
 
 s3_client = boto3.client('s3', 
-                      aws_access_key_id="AKIA4DIWKSEGXUIVBMGI", 
-                      aws_secret_access_key="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", 
+                      aws_access_key_id="", 
+                      aws_secret_access_key="",
                       region_name="us-west-1"
                       )
 
